@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:kepano/obsidian-skills.git
+	branch = main
+	commit = bb9ec95e1b59c3471bd6fd77a78a4042430bfac3
+	parent = 0184fbe375bb9f0c9d4b2156c7f35d19b32363c7
+	method = merge
+	cmdver = 0.4.9
