@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:op7418/Humanizer-zh.git
+	branch = main
+	commit = 91f3d394db8419c20d67ebe22a96cf8fee0a404b
+	parent = 2ee3433e7e30ecc4da7398723c8b5e8dc479edee
+	method = merge
+	cmdver = 0.4.9
