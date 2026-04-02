@@ -95,15 +95,7 @@ git push origin main
 
 ### Push back to upstream
 
-只有当你明确想把变更贡献回上游时，才使用：
-
-```bash
-git subrepo push Humanizer-zh
-git subrepo push obsidian-skills
-git subrepo push superpowers
-```
-
-这一步需要确认上游仓库权限、目标分支和变更内容都符合预期。
+不要直接 Push 上游，只能以整理好的开源Pull Request形式贡献回上游。
 
 ## Notes
 
