@@ -32,6 +32,9 @@
 
 ```text
 my-skills/
+├── .claude/
+│   └── skills/
+│       └── sync-upstream-skills/   ← 私有 skill：同步上游
 ├── Humanizer-zh/
 ├── obsidian-skills/
 └── superpowers/
@@ -58,7 +61,9 @@ my-skills/
 
 ### Pull upstream changes
 
-在仓库根目录执行：
+**推荐方式：** 直接告诉 Claude Code "同步上游 skills"，会自动调用 `sync-upstream-skills` skill，包含 git-subrepo 安装检查和冲突处理指引。
+
+**手动方式：** 在仓库根目录执行：
 
 ```bash
 git subrepo pull Humanizer-zh
@@ -67,6 +72,8 @@ git subrepo pull superpowers
 ```
 
 如果只需要同步某一个上游，只执行对应目录即可。
+
+> `git-subrepo` 未安装时先执行 `brew install git-subrepo`。
 
 ### Make private changes
 
