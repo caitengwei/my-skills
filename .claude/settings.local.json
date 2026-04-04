@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git subrepo:*)",
+      "Bash(brew list:*)",
+      "Bash(brew install:*)",
+      "Bash(git add:*)",
+      "Bash(mkdir -p /Users/twcai/workspace/dotfiles/skills/.claude/skills)",
+      "Bash(mv /Users/twcai/workspace/dotfiles/skills/sync-upstream-skills /Users/twcai/workspace/dotfiles/skills/.claude/skills/)"
+    ]
+  }
+}
