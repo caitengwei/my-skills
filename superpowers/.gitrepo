@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:obra/superpowers.git
 	branch = main
-	commit = 8ea39819eed74fe2a0338e71789f06b30e953041
+	commit = b7a8f76985f1e93e75dd2f2a3b424dc731bd9d37
 	parent = 119b20bfe69a3e48ac978de85c6869d39ef99eb4
 	method = merge
 	cmdver = 0.4.9
