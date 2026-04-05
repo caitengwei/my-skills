@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git subrepo:*)",
       "Bash(brew list:*)",
-      "Bash(brew install:*)"
+      "Bash(brew install:*)",
+      "Bash(git add:*)"
     ]
   }
 }
